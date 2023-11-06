@@ -1,0 +1,2599 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+                <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/echarts.min.js"></script>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/v5/maps/china.js"></script>
+
+</head>
+<body >
+    <div id="6d25c068689441c2a088b16ded61986d" class="chart-container" style="width:1000px; height:700px; "></div>
+    <script>
+        var chart_6d25c068689441c2a088b16ded61986d = echarts.init(
+            document.getElementById('6d25c068689441c2a088b16ded61986d'), 'white', {renderer: 'canvas'});
+        var option_6d25c068689441c2a088b16ded61986d = {
+    "baseOption": {
+        "series": [
+            {
+                "type": "map",
+                "name": "Overall food security index by region",
+                "label": {
+                    "show": true,
+                    "margin": 8
+                },
+                "map": "china",
+                "data": [
+                    {
+                        "name": "Beijing",
+                        "value": 0.37727021029861435
+                    },
+                    {
+                        "name": "Tianjin",
+                        "value": 0.3907983247866075
+                    },
+                    {
+                        "name": "Hebei",
+                        "value": 0.4881616584715309
+                    },
+                    {
+                        "name": "Shanxi",
+                        "value": 0.4706570263435622
+                    },
+                    {
+                        "name": "Inner Mongolia",
+                        "value": 0.6645763251951632
+                    },
+                    {
+                        "name": "Liaoning",
+                        "value": 0.46872088923608857
+                    },
+                    {
+                        "name": "Jilin",
+                        "value": 0.5765309649391982
+                    },
+                    {
+                        "name": "Heilongjiang",
+                        "value": 0.5876272444209129
+                    },
+                    {
+                        "name": "Shanghai",
+                        "value": 0.29852192251048787
+                    },
+                    {
+                        "name": "Jiangsu",
+                        "value": 0.4668091112530237
+                    },
+                    {
+                        "name": "Zhejiang",
+                        "value": 0.5025496353164431
+                    },
+                    {
+                        "name": "Anhui",
+                        "value": 0.4551142326485908
+                    },
+                    {
+                        "name": "Fujian",
+                        "value": 0.4015945732559062
+                    },
+                    {
+                        "name": "Jiangxi",
+                        "value": 0.3881855080846799
+                    },
+                    {
+                        "name": "Shandong",
+                        "value": 0.5291451300880701
+                    },
+                    {
+                        "name": "Henan",
+                        "value": 0.4973080628079457
+                    },
+                    {
+                        "name": "Hubei",
+                        "value": 0.4422289982223928
+                    },
+                    {
+                        "name": "Hunan",
+                        "value": 0.38335610166445067
+                    },
+                    {
+                        "name": "Guangdong",
+                        "value": 0.4328232572292333
+                    },
+                    {
+                        "name": "Guangxi",
+                        "value": 0.37793253273574473
+                    },
+                    {
+                        "name": "Hainan",
+                        "value": 0.3234557350344677
+                    },
+                    {
+                        "name": "Chongqing",
+                        "value": 0.37222641806340756
+                    },
+                    {
+                        "name": "Sichuan",
+                        "value": 0.3668801554838823
+                    },
+                    {
+                        "name": "Guizhou",
+                        "value": 0.29893882657713566
+                    },
+                    {
+                        "name": "Yunnan",
+                        "value": 0.3964094493012912
+                    },
+                    {
+                        "name": "Xizang",
+                        "value": 0.4262652636343005
+                    },
+                    {
+                        "name": "Shaanxi",
+                        "value": 0.4177373777947543
+                    },
+                    {
+                        "name": "Gansu",
+                        "value": 0.3880770443383753
+                    },
+                    {
+                        "name": "Qinghai",
+                        "value": 0.40589746555169115
+                    },
+                    {
+                        "name": "Ningxia",
+                        "value": 0.5350586381965902
+                    },
+                    {
+                        "name": "Xinjiang",
+                        "value": 0.527466054318831
+                    }
+                ],
+                "roam": true,
+                "aspectScale": 0.75,
+                "nameProperty": "name",
+                "selectedMode": false,
+                "zoom": 1,
+                "nameMap": {
+                    "\u4e0a\u6d77\u5e02": "Shanghai",
+                    "\u4e91\u5357\u7701": "Yunnan",
+                    "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                    "\u5317\u4eac\u5e02": "Beijing",
+                    "\u53f0\u6e7e\u7701": "Taiwan",
+                    "\u5409\u6797\u7701": "Jilin",
+                    "\u56db\u5ddd\u7701": "Sichuan",
+                    "\u5929\u6d25\u5e02": "Tianjin",
+                    "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                    "\u5b89\u5fbd\u7701": "Anhui",
+                    "\u5c71\u4e1c\u7701": "Shandong",
+                    "\u5c71\u897f\u7701": "Shanxi",
+                    "\u5e7f\u4e1c\u7701": "Guangdong",
+                    "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                    "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                    "\u6c5f\u82cf\u7701": "Jiangsu",
+                    "\u6c5f\u897f\u7701": "Jiangxi",
+                    "\u6cb3\u5317\u7701": "Hebei",
+                    "\u6cb3\u5357\u7701": "Henan",
+                    "\u6d59\u6c5f\u7701": "Zhejiang",
+                    "\u6d77\u5357\u7701": "Hainan",
+                    "\u6e56\u5317\u7701": "Hubei",
+                    "\u6e56\u5357\u7701": "Hunan",
+                    "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                    "\u7518\u8083\u7701": "Gansu",
+                    "\u798f\u5efa\u7701": "Fujian",
+                    "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                    "\u8d35\u5dde\u7701": "Guizhou",
+                    "\u8fbd\u5b81\u7701": "Liaoning",
+                    "\u91cd\u5e86\u5e02": "Chongqing",
+                    "\u9655\u897f\u7701": "Shaanxi",
+                    "\u9752\u6d77\u7701": "Qinghai",
+                    "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                    "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                    "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                },
+                "zlevel": 0,
+                "z": 2,
+                "seriesLayoutBy": "column",
+                "datasetIndex": 0,
+                "mapValueCalculation": "sum",
+                "showLegendSymbol": true,
+                "emphasis": {}
+            }
+        ],
+        "timeline": {
+            "axisType": "category",
+            "currentIndex": 0,
+            "orient": "horizontal",
+            "autoPlay": true,
+            "controlPosition": "left",
+            "loop": true,
+            "rewind": false,
+            "show": true,
+            "inverse": false,
+            "playInterval": 500,
+            "bottom": "-5px",
+            "progress": {},
+            "data": [
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null,
+                null
+            ]
+        },
+        "visualMap": {
+            "show": true,
+            "type": "continuous",
+            "min": 0,
+            "max": 0.6645763251951632,
+            "inRange": {
+                "color": [
+                    "#50a3ba",
+                    "#eac763",
+                    "#d94e5d"
+                ]
+            },
+            "calculable": true,
+            "inverse": false,
+            "splitNumber": 5,
+            "hoverLink": true,
+            "orient": "vertical",
+            "padding": 5,
+            "showLabel": true,
+            "itemWidth": 20,
+            "itemHeight": 140,
+            "borderWidth": 0
+        },
+        "legend": [
+            {
+                "data": [
+                    "Overall food security index by region"
+                ],
+                "selected": {},
+                "show": true,
+                "padding": 5,
+                "itemGap": 10,
+                "itemWidth": 25,
+                "itemHeight": 14,
+                "backgroundColor": "transparent",
+                "borderColor": "#ccc",
+                "borderWidth": 1,
+                "borderRadius": 0,
+                "pageButtonItemGap": 5,
+                "pageButtonPosition": "end",
+                "pageFormatter": "{current}/{total}",
+                "pageIconColor": "#2f4554",
+                "pageIconInactiveColor": "#aaa",
+                "pageIconSize": 15,
+                "animationDurationUpdate": 800,
+                "selector": false,
+                "selectorPosition": "auto",
+                "selectorItemGap": 7,
+                "selectorButtonGap": 10
+            }
+        ]
+    },
+    "options": [
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "Overall food security index by region",
+                    "label": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "Beijing",
+                            "value": -0.017896599383404876
+                        },
+                        {
+                            "name": "Tianjin",
+                            "value": 0.025714208398270356
+                        },
+                        {
+                            "name": "Hebei",
+                            "value": -0.36169901171620444
+                        },
+                        {
+                            "name": "Shanxi",
+                            "value": 0.04705442489318075
+                        },
+                        {
+                            "name": "Inner Mongolia",
+                            "value": 0.15632392386022045
+                        },
+                        {
+                            "name": "Liaoning",
+                            "value": 0.08869728546671223
+                        },
+                        {
+                            "name": "Jilin",
+                            "value": 0.12399481470276179
+                        },
+                        {
+                            "name": "Heilongjiang",
+                            "value": 0.1513792498544318
+                        },
+                        {
+                            "name": "Shanghai",
+                            "value": -0.02064878267823622
+                        },
+                        {
+                            "name": "Jiangsu",
+                            "value": -0.36112587420786274
+                        },
+                        {
+                            "name": "Zhejiang",
+                            "value": -0.8133333306438029
+                        },
+                        {
+                            "name": "Anhui",
+                            "value": 0.10961768564800739
+                        },
+                        {
+                            "name": "Fujian",
+                            "value": -0.4148298263431195
+                        },
+                        {
+                            "name": "Jiangxi",
+                            "value": -0.08988201993090954
+                        },
+                        {
+                            "name": "Shandong",
+                            "value": -0.4635811244087844
+                        },
+                        {
+                            "name": "Henan",
+                            "value": 0.1303916208453595
+                        },
+                        {
+                            "name": "Hubei",
+                            "value": 0.08900714532004686
+                        },
+                        {
+                            "name": "Hunan",
+                            "value": 0.04446191361466935
+                        },
+                        {
+                            "name": "Guangdong",
+                            "value": -0.2674340912396127
+                        },
+                        {
+                            "name": "Guangxi",
+                            "value": 0.013679245228200895
+                        },
+                        {
+                            "name": "Hainan",
+                            "value": 0.022211012232753014
+                        },
+                        {
+                            "name": "Chongqing",
+                            "value": 0.002622264484541545
+                        },
+                        {
+                            "name": "Sichuan",
+                            "value": 0.03307702847388298
+                        },
+                        {
+                            "name": "Guizhou",
+                            "value": -0.0578328241172239
+                        },
+                        {
+                            "name": "Yunnan",
+                            "value": 0.023996126386549382
+                        },
+                        {
+                            "name": "Xizang",
+                            "value": 0.06710779316349173
+                        },
+                        {
+                            "name": "Shaanxi",
+                            "value": 0.047306022862525776
+                        },
+                        {
+                            "name": "Gansu",
+                            "value": 0.007250163940222792
+                        },
+                        {
+                            "name": "Qinghai",
+                            "value": 0.04595620721636094
+                        },
+                        {
+                            "name": "Ningxia",
+                            "value": 0.07598449003058659
+                        },
+                        {
+                            "name": "Xinjiang",
+                            "value": 0.1399447471209117
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "nameMap": {
+                        "\u4e0a\u6d77\u5e02": "Shanghai",
+                        "\u4e91\u5357\u7701": "Yunnan",
+                        "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                        "\u5317\u4eac\u5e02": "Beijing",
+                        "\u53f0\u6e7e\u7701": "Taiwan",
+                        "\u5409\u6797\u7701": "Jilin",
+                        "\u56db\u5ddd\u7701": "Sichuan",
+                        "\u5929\u6d25\u5e02": "Tianjin",
+                        "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                        "\u5b89\u5fbd\u7701": "Anhui",
+                        "\u5c71\u4e1c\u7701": "Shandong",
+                        "\u5c71\u897f\u7701": "Shanxi",
+                        "\u5e7f\u4e1c\u7701": "Guangdong",
+                        "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                        "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                        "\u6c5f\u82cf\u7701": "Jiangsu",
+                        "\u6c5f\u897f\u7701": "Jiangxi",
+                        "\u6cb3\u5317\u7701": "Hebei",
+                        "\u6cb3\u5357\u7701": "Henan",
+                        "\u6d59\u6c5f\u7701": "Zhejiang",
+                        "\u6d77\u5357\u7701": "Hainan",
+                        "\u6e56\u5317\u7701": "Hubei",
+                        "\u6e56\u5357\u7701": "Hunan",
+                        "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                        "\u7518\u8083\u7701": "Gansu",
+                        "\u798f\u5efa\u7701": "Fujian",
+                        "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                        "\u8d35\u5dde\u7701": "Guizhou",
+                        "\u8fbd\u5b81\u7701": "Liaoning",
+                        "\u91cd\u5e86\u5e02": "Chongqing",
+                        "\u9655\u897f\u7701": "Shaanxi",
+                        "\u9752\u6d77\u7701": "Qinghai",
+                        "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                        "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                        "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                    },
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "2013",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 0.15632392386022045,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "Overall food security index by region",
+                    "label": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "Beijing",
+                            "value": 0.37102722634772667
+                        },
+                        {
+                            "name": "Tianjin",
+                            "value": 0.40025536599979317
+                        },
+                        {
+                            "name": "Hebei",
+                            "value": 0.5864477196575576
+                        },
+                        {
+                            "name": "Shanxi",
+                            "value": 0.4373752776195796
+                        },
+                        {
+                            "name": "Inner Mongolia",
+                            "value": 0.640443070665439
+                        },
+                        {
+                            "name": "Liaoning",
+                            "value": 0.5474614868303351
+                        },
+                        {
+                            "name": "Jilin",
+                            "value": 0.5827913109054816
+                        },
+                        {
+                            "name": "Heilongjiang",
+                            "value": 0.6026144316829558
+                        },
+                        {
+                            "name": "Shanghai",
+                            "value": 0.3079454350319363
+                        },
+                        {
+                            "name": "Jiangsu",
+                            "value": 0.5845589311606922
+                        },
+                        {
+                            "name": "Zhejiang",
+                            "value": 0.6613785539034525
+                        },
+                        {
+                            "name": "Anhui",
+                            "value": 0.4936831488293343
+                        },
+                        {
+                            "name": "Fujian",
+                            "value": 0.5327628992012534
+                        },
+                        {
+                            "name": "Jiangxi",
+                            "value": 0.45406859375670233
+                        },
+                        {
+                            "name": "Shandong",
+                            "value": 0.5896427513201425
+                        },
+                        {
+                            "name": "Henan",
+                            "value": 0.5298604539283513
+                        },
+                        {
+                            "name": "Hubei",
+                            "value": 0.4949796656288721
+                        },
+                        {
+                            "name": "Hunan",
+                            "value": 0.4458251177575604
+                        },
+                        {
+                            "name": "Guangdong",
+                            "value": 0.641727648508684
+                        },
+                        {
+                            "name": "Guangxi",
+                            "value": 0.4193299806220899
+                        },
+                        {
+                            "name": "Hainan",
+                            "value": 0.4217766618352644
+                        },
+                        {
+                            "name": "Chongqing",
+                            "value": 0.3362399277663025
+                        },
+                        {
+                            "name": "Sichuan",
+                            "value": 0.3938798630349372
+                        },
+                        {
+                            "name": "Guizhou",
+                            "value": 0.3219625447310569
+                        },
+                        {
+                            "name": "Yunnan",
+                            "value": 0.3685681909909292
+                        },
+                        {
+                            "name": "Xizang",
+                            "value": 0.46083805079640094
+                        },
+                        {
+                            "name": "Shaanxi",
+                            "value": 0.41940615477664656
+                        },
+                        {
+                            "name": "Gansu",
+                            "value": 0.44152945693948753
+                        },
+                        {
+                            "name": "Qinghai",
+                            "value": 0.44548780670941956
+                        },
+                        {
+                            "name": "Ningxia",
+                            "value": 0.49927429091134196
+                        },
+                        {
+                            "name": "Xinjiang",
+                            "value": 0.5789006156670959
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "nameMap": {
+                        "\u4e0a\u6d77\u5e02": "Shanghai",
+                        "\u4e91\u5357\u7701": "Yunnan",
+                        "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                        "\u5317\u4eac\u5e02": "Beijing",
+                        "\u53f0\u6e7e\u7701": "Taiwan",
+                        "\u5409\u6797\u7701": "Jilin",
+                        "\u56db\u5ddd\u7701": "Sichuan",
+                        "\u5929\u6d25\u5e02": "Tianjin",
+                        "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                        "\u5b89\u5fbd\u7701": "Anhui",
+                        "\u5c71\u4e1c\u7701": "Shandong",
+                        "\u5c71\u897f\u7701": "Shanxi",
+                        "\u5e7f\u4e1c\u7701": "Guangdong",
+                        "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                        "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                        "\u6c5f\u82cf\u7701": "Jiangsu",
+                        "\u6c5f\u897f\u7701": "Jiangxi",
+                        "\u6cb3\u5317\u7701": "Hebei",
+                        "\u6cb3\u5357\u7701": "Henan",
+                        "\u6d59\u6c5f\u7701": "Zhejiang",
+                        "\u6d77\u5357\u7701": "Hainan",
+                        "\u6e56\u5317\u7701": "Hubei",
+                        "\u6e56\u5357\u7701": "Hunan",
+                        "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                        "\u7518\u8083\u7701": "Gansu",
+                        "\u798f\u5efa\u7701": "Fujian",
+                        "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                        "\u8d35\u5dde\u7701": "Guizhou",
+                        "\u8fbd\u5b81\u7701": "Liaoning",
+                        "\u91cd\u5e86\u5e02": "Chongqing",
+                        "\u9655\u897f\u7701": "Shaanxi",
+                        "\u9752\u6d77\u7701": "Qinghai",
+                        "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                        "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                        "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                    },
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "2014",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 0.6613785539034525,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "Overall food security index by region",
+                    "label": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "Beijing",
+                            "value": 0.3001203495726562
+                        },
+                        {
+                            "name": "Tianjin",
+                            "value": 0.3512651224747092
+                        },
+                        {
+                            "name": "Hebei",
+                            "value": 0.49893021151267797
+                        },
+                        {
+                            "name": "Shanxi",
+                            "value": 0.41889115209351135
+                        },
+                        {
+                            "name": "Inner Mongolia",
+                            "value": 0.644400138383033
+                        },
+                        {
+                            "name": "Liaoning",
+                            "value": 0.5189157177097008
+                        },
+                        {
+                            "name": "Jilin",
+                            "value": 0.5877592702811056
+                        },
+                        {
+                            "name": "Heilongjiang",
+                            "value": 0.586250154105693
+                        },
+                        {
+                            "name": "Shanghai",
+                            "value": 0.300211283450135
+                        },
+                        {
+                            "name": "Jiangsu",
+                            "value": 0.5577519870392832
+                        },
+                        {
+                            "name": "Zhejiang",
+                            "value": 0.6155687283960201
+                        },
+                        {
+                            "name": "Anhui",
+                            "value": 0.4916568859979955
+                        },
+                        {
+                            "name": "Fujian",
+                            "value": 0.4825016062161662
+                        },
+                        {
+                            "name": "Jiangxi",
+                            "value": 0.4492872940307121
+                        },
+                        {
+                            "name": "Shandong",
+                            "value": 0.5634514082026754
+                        },
+                        {
+                            "name": "Henan",
+                            "value": 0.48291093762798043
+                        },
+                        {
+                            "name": "Hubei",
+                            "value": 0.4947220935491079
+                        },
+                        {
+                            "name": "Hunan",
+                            "value": 0.4741136805721079
+                        },
+                        {
+                            "name": "Guangdong",
+                            "value": 0.5477097776407235
+                        },
+                        {
+                            "name": "Guangxi",
+                            "value": 0.41350350132690095
+                        },
+                        {
+                            "name": "Hainan",
+                            "value": 0.3938796496412893
+                        },
+                        {
+                            "name": "Chongqing",
+                            "value": 0.37349222589466646
+                        },
+                        {
+                            "name": "Sichuan",
+                            "value": 0.4194909890482742
+                        },
+                        {
+                            "name": "Guizhou",
+                            "value": 0.34090659128592377
+                        },
+                        {
+                            "name": "Yunnan",
+                            "value": 0.4042535055549711
+                        },
+                        {
+                            "name": "Xizang",
+                            "value": 0.45637017326499946
+                        },
+                        {
+                            "name": "Shaanxi",
+                            "value": 0.4007509327356148
+                        },
+                        {
+                            "name": "Gansu",
+                            "value": 0.38119406411341855
+                        },
+                        {
+                            "name": "Qinghai",
+                            "value": 0.4420619148884011
+                        },
+                        {
+                            "name": "Ningxia",
+                            "value": 0.4553383552135011
+                        },
+                        {
+                            "name": "Xinjiang",
+                            "value": 0.5229243449651986
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "nameMap": {
+                        "\u4e0a\u6d77\u5e02": "Shanghai",
+                        "\u4e91\u5357\u7701": "Yunnan",
+                        "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                        "\u5317\u4eac\u5e02": "Beijing",
+                        "\u53f0\u6e7e\u7701": "Taiwan",
+                        "\u5409\u6797\u7701": "Jilin",
+                        "\u56db\u5ddd\u7701": "Sichuan",
+                        "\u5929\u6d25\u5e02": "Tianjin",
+                        "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                        "\u5b89\u5fbd\u7701": "Anhui",
+                        "\u5c71\u4e1c\u7701": "Shandong",
+                        "\u5c71\u897f\u7701": "Shanxi",
+                        "\u5e7f\u4e1c\u7701": "Guangdong",
+                        "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                        "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                        "\u6c5f\u82cf\u7701": "Jiangsu",
+                        "\u6c5f\u897f\u7701": "Jiangxi",
+                        "\u6cb3\u5317\u7701": "Hebei",
+                        "\u6cb3\u5357\u7701": "Henan",
+                        "\u6d59\u6c5f\u7701": "Zhejiang",
+                        "\u6d77\u5357\u7701": "Hainan",
+                        "\u6e56\u5317\u7701": "Hubei",
+                        "\u6e56\u5357\u7701": "Hunan",
+                        "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                        "\u7518\u8083\u7701": "Gansu",
+                        "\u798f\u5efa\u7701": "Fujian",
+                        "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                        "\u8d35\u5dde\u7701": "Guizhou",
+                        "\u8fbd\u5b81\u7701": "Liaoning",
+                        "\u91cd\u5e86\u5e02": "Chongqing",
+                        "\u9655\u897f\u7701": "Shaanxi",
+                        "\u9752\u6d77\u7701": "Qinghai",
+                        "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                        "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                        "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                    },
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "2015",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 0.644400138383033,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "Overall food security index by region",
+                    "label": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "Beijing",
+                            "value": 0.3386394524110064
+                        },
+                        {
+                            "name": "Tianjin",
+                            "value": 0.36193871605123035
+                        },
+                        {
+                            "name": "Hebei",
+                            "value": 0.504261290245495
+                        },
+                        {
+                            "name": "Shanxi",
+                            "value": 0.4183606843614
+                        },
+                        {
+                            "name": "Inner Mongolia",
+                            "value": 0.6294554340219797
+                        },
+                        {
+                            "name": "Liaoning",
+                            "value": 0.49354573090771214
+                        },
+                        {
+                            "name": "Jilin",
+                            "value": 0.5687132231882802
+                        },
+                        {
+                            "name": "Heilongjiang",
+                            "value": 0.5962068104557634
+                        },
+                        {
+                            "name": "Shanghai",
+                            "value": 0.3332153167356118
+                        },
+                        {
+                            "name": "Jiangsu",
+                            "value": 0.5418479126213107
+                        },
+                        {
+                            "name": "Zhejiang",
+                            "value": 0.619531389723821
+                        },
+                        {
+                            "name": "Anhui",
+                            "value": 0.5436603454899509
+                        },
+                        {
+                            "name": "Fujian",
+                            "value": 0.5023845552289022
+                        },
+                        {
+                            "name": "Jiangxi",
+                            "value": 0.49523954326844655
+                        },
+                        {
+                            "name": "Shandong",
+                            "value": 0.5856167555931633
+                        },
+                        {
+                            "name": "Henan",
+                            "value": 0.5271286824244104
+                        },
+                        {
+                            "name": "Hubei",
+                            "value": 0.5577043049571229
+                        },
+                        {
+                            "name": "Hunan",
+                            "value": 0.5089747453309573
+                        },
+                        {
+                            "name": "Guangdong",
+                            "value": 0.5576076441992203
+                        },
+                        {
+                            "name": "Guangxi",
+                            "value": 0.4487426718066835
+                        },
+                        {
+                            "name": "Hainan",
+                            "value": 0.46079083258161335
+                        },
+                        {
+                            "name": "Chongqing",
+                            "value": 0.42492261575100876
+                        },
+                        {
+                            "name": "Sichuan",
+                            "value": 0.4733625551603385
+                        },
+                        {
+                            "name": "Guizhou",
+                            "value": 0.37735851664499853
+                        },
+                        {
+                            "name": "Yunnan",
+                            "value": 0.4451961765362751
+                        },
+                        {
+                            "name": "Xizang",
+                            "value": 0.4732015589353994
+                        },
+                        {
+                            "name": "Shaanxi",
+                            "value": 0.42519284868148033
+                        },
+                        {
+                            "name": "Gansu",
+                            "value": 0.3812772664775928
+                        },
+                        {
+                            "name": "Qinghai",
+                            "value": 0.44193529300362716
+                        },
+                        {
+                            "name": "Ningxia",
+                            "value": 0.45700241079385595
+                        },
+                        {
+                            "name": "Xinjiang",
+                            "value": 0.5356412611896245
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "nameMap": {
+                        "\u4e0a\u6d77\u5e02": "Shanghai",
+                        "\u4e91\u5357\u7701": "Yunnan",
+                        "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                        "\u5317\u4eac\u5e02": "Beijing",
+                        "\u53f0\u6e7e\u7701": "Taiwan",
+                        "\u5409\u6797\u7701": "Jilin",
+                        "\u56db\u5ddd\u7701": "Sichuan",
+                        "\u5929\u6d25\u5e02": "Tianjin",
+                        "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                        "\u5b89\u5fbd\u7701": "Anhui",
+                        "\u5c71\u4e1c\u7701": "Shandong",
+                        "\u5c71\u897f\u7701": "Shanxi",
+                        "\u5e7f\u4e1c\u7701": "Guangdong",
+                        "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                        "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                        "\u6c5f\u82cf\u7701": "Jiangsu",
+                        "\u6c5f\u897f\u7701": "Jiangxi",
+                        "\u6cb3\u5317\u7701": "Hebei",
+                        "\u6cb3\u5357\u7701": "Henan",
+                        "\u6d59\u6c5f\u7701": "Zhejiang",
+                        "\u6d77\u5357\u7701": "Hainan",
+                        "\u6e56\u5317\u7701": "Hubei",
+                        "\u6e56\u5357\u7701": "Hunan",
+                        "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                        "\u7518\u8083\u7701": "Gansu",
+                        "\u798f\u5efa\u7701": "Fujian",
+                        "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                        "\u8d35\u5dde\u7701": "Guizhou",
+                        "\u8fbd\u5b81\u7701": "Liaoning",
+                        "\u91cd\u5e86\u5e02": "Chongqing",
+                        "\u9655\u897f\u7701": "Shaanxi",
+                        "\u9752\u6d77\u7701": "Qinghai",
+                        "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                        "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                        "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                    },
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "2016",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 0.6294554340219797,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "Overall food security index by region",
+                    "label": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "Beijing",
+                            "value": 0.3253176477995885
+                        },
+                        {
+                            "name": "Tianjin",
+                            "value": 0.4362098443975869
+                        },
+                        {
+                            "name": "Hebei",
+                            "value": 0.541597693686215
+                        },
+                        {
+                            "name": "Shanxi",
+                            "value": 0.43853440022622936
+                        },
+                        {
+                            "name": "Inner Mongolia",
+                            "value": 0.645727293002976
+                        },
+                        {
+                            "name": "Liaoning",
+                            "value": 0.5093175056369804
+                        },
+                        {
+                            "name": "Jilin",
+                            "value": 0.5670484095297603
+                        },
+                        {
+                            "name": "Heilongjiang",
+                            "value": 0.6105982634222709
+                        },
+                        {
+                            "name": "Shanghai",
+                            "value": 0.3285971106524877
+                        },
+                        {
+                            "name": "Jiangsu",
+                            "value": 0.5871967590737727
+                        },
+                        {
+                            "name": "Zhejiang",
+                            "value": 0.6493911304924074
+                        },
+                        {
+                            "name": "Anhui",
+                            "value": 0.565561554385913
+                        },
+                        {
+                            "name": "Fujian",
+                            "value": 0.5119757027519667
+                        },
+                        {
+                            "name": "Jiangxi",
+                            "value": 0.5215536789374875
+                        },
+                        {
+                            "name": "Shandong",
+                            "value": 0.6592222612433263
+                        },
+                        {
+                            "name": "Henan",
+                            "value": 0.571674120584511
+                        },
+                        {
+                            "name": "Hubei",
+                            "value": 0.5614421549612916
+                        },
+                        {
+                            "name": "Hunan",
+                            "value": 0.5283788148095088
+                        },
+                        {
+                            "name": "Guangdong",
+                            "value": 0.5492525184904133
+                        },
+                        {
+                            "name": "Guangxi",
+                            "value": 0.4572136885724711
+                        },
+                        {
+                            "name": "Hainan",
+                            "value": 0.4286351064134539
+                        },
+                        {
+                            "name": "Chongqing",
+                            "value": 0.41679101481558356
+                        },
+                        {
+                            "name": "Sichuan",
+                            "value": 0.4674588814743983
+                        },
+                        {
+                            "name": "Guizhou",
+                            "value": 0.3757452583790577
+                        },
+                        {
+                            "name": "Yunnan",
+                            "value": 0.4415466208523859
+                        },
+                        {
+                            "name": "Xizang",
+                            "value": 0.5020580090387659
+                        },
+                        {
+                            "name": "Shaanxi",
+                            "value": 0.46751139700093824
+                        },
+                        {
+                            "name": "Gansu",
+                            "value": 0.4217914834153454
+                        },
+                        {
+                            "name": "Qinghai",
+                            "value": 0.47473130983093464
+                        },
+                        {
+                            "name": "Ningxia",
+                            "value": 0.48383533528018385
+                        },
+                        {
+                            "name": "Xinjiang",
+                            "value": 0.5855398834324573
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "nameMap": {
+                        "\u4e0a\u6d77\u5e02": "Shanghai",
+                        "\u4e91\u5357\u7701": "Yunnan",
+                        "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                        "\u5317\u4eac\u5e02": "Beijing",
+                        "\u53f0\u6e7e\u7701": "Taiwan",
+                        "\u5409\u6797\u7701": "Jilin",
+                        "\u56db\u5ddd\u7701": "Sichuan",
+                        "\u5929\u6d25\u5e02": "Tianjin",
+                        "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                        "\u5b89\u5fbd\u7701": "Anhui",
+                        "\u5c71\u4e1c\u7701": "Shandong",
+                        "\u5c71\u897f\u7701": "Shanxi",
+                        "\u5e7f\u4e1c\u7701": "Guangdong",
+                        "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                        "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                        "\u6c5f\u82cf\u7701": "Jiangsu",
+                        "\u6c5f\u897f\u7701": "Jiangxi",
+                        "\u6cb3\u5317\u7701": "Hebei",
+                        "\u6cb3\u5357\u7701": "Henan",
+                        "\u6d59\u6c5f\u7701": "Zhejiang",
+                        "\u6d77\u5357\u7701": "Hainan",
+                        "\u6e56\u5317\u7701": "Hubei",
+                        "\u6e56\u5357\u7701": "Hunan",
+                        "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                        "\u7518\u8083\u7701": "Gansu",
+                        "\u798f\u5efa\u7701": "Fujian",
+                        "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                        "\u8d35\u5dde\u7701": "Guizhou",
+                        "\u8fbd\u5b81\u7701": "Liaoning",
+                        "\u91cd\u5e86\u5e02": "Chongqing",
+                        "\u9655\u897f\u7701": "Shaanxi",
+                        "\u9752\u6d77\u7701": "Qinghai",
+                        "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                        "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                        "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                    },
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "2017",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 0.6592222612433263,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "Overall food security index by region",
+                    "label": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "Beijing",
+                            "value": 0.3529171895552139
+                        },
+                        {
+                            "name": "Tianjin",
+                            "value": 0.4192867275844242
+                        },
+                        {
+                            "name": "Hebei",
+                            "value": 0.4922157776206401
+                        },
+                        {
+                            "name": "Shanxi",
+                            "value": 0.47959977913694174
+                        },
+                        {
+                            "name": "Inner Mongolia",
+                            "value": 0.7280688064628154
+                        },
+                        {
+                            "name": "Liaoning",
+                            "value": 0.5594152515237474
+                        },
+                        {
+                            "name": "Jilin",
+                            "value": 0.6856928691966558
+                        },
+                        {
+                            "name": "Heilongjiang",
+                            "value": 0.6990732267783706
+                        },
+                        {
+                            "name": "Shanghai",
+                            "value": 0.2873966229716237
+                        },
+                        {
+                            "name": "Jiangsu",
+                            "value": 0.5273471377064143
+                        },
+                        {
+                            "name": "Zhejiang",
+                            "value": 0.5781132532552414
+                        },
+                        {
+                            "name": "Anhui",
+                            "value": 0.5013847990876512
+                        },
+                        {
+                            "name": "Fujian",
+                            "value": 0.46411384951808393
+                        },
+                        {
+                            "name": "Jiangxi",
+                            "value": 0.44741459280227236
+                        },
+                        {
+                            "name": "Shandong",
+                            "value": 0.6194110693010586
+                        },
+                        {
+                            "name": "Henan",
+                            "value": 0.5106744257912282
+                        },
+                        {
+                            "name": "Hubei",
+                            "value": 0.483591391903497
+                        },
+                        {
+                            "name": "Hunan",
+                            "value": 0.46795729095494876
+                        },
+                        {
+                            "name": "Guangdong",
+                            "value": 0.5131374119475487
+                        },
+                        {
+                            "name": "Guangxi",
+                            "value": 0.44549977036051913
+                        },
+                        {
+                            "name": "Hainan",
+                            "value": 0.39839275333725044
+                        },
+                        {
+                            "name": "Chongqing",
+                            "value": 0.3874710687625457
+                        },
+                        {
+                            "name": "Sichuan",
+                            "value": 0.42043151580114
+                        },
+                        {
+                            "name": "Guizhou",
+                            "value": 0.34996981943530203
+                        },
+                        {
+                            "name": "Yunnan",
+                            "value": 0.4353610602009831
+                        },
+                        {
+                            "name": "Xizang",
+                            "value": 0.4679075158842919
+                        },
+                        {
+                            "name": "Shaanxi",
+                            "value": 0.44609659877149127
+                        },
+                        {
+                            "name": "Gansu",
+                            "value": 0.40556941317121825
+                        },
+                        {
+                            "name": "Qinghai",
+                            "value": 0.4190816329104255
+                        },
+                        {
+                            "name": "Ningxia",
+                            "value": 0.47437191842838555
+                        },
+                        {
+                            "name": "Xinjiang",
+                            "value": 0.5653489853282738
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "nameMap": {
+                        "\u4e0a\u6d77\u5e02": "Shanghai",
+                        "\u4e91\u5357\u7701": "Yunnan",
+                        "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                        "\u5317\u4eac\u5e02": "Beijing",
+                        "\u53f0\u6e7e\u7701": "Taiwan",
+                        "\u5409\u6797\u7701": "Jilin",
+                        "\u56db\u5ddd\u7701": "Sichuan",
+                        "\u5929\u6d25\u5e02": "Tianjin",
+                        "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                        "\u5b89\u5fbd\u7701": "Anhui",
+                        "\u5c71\u4e1c\u7701": "Shandong",
+                        "\u5c71\u897f\u7701": "Shanxi",
+                        "\u5e7f\u4e1c\u7701": "Guangdong",
+                        "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                        "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                        "\u6c5f\u82cf\u7701": "Jiangsu",
+                        "\u6c5f\u897f\u7701": "Jiangxi",
+                        "\u6cb3\u5317\u7701": "Hebei",
+                        "\u6cb3\u5357\u7701": "Henan",
+                        "\u6d59\u6c5f\u7701": "Zhejiang",
+                        "\u6d77\u5357\u7701": "Hainan",
+                        "\u6e56\u5317\u7701": "Hubei",
+                        "\u6e56\u5357\u7701": "Hunan",
+                        "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                        "\u7518\u8083\u7701": "Gansu",
+                        "\u798f\u5efa\u7701": "Fujian",
+                        "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                        "\u8d35\u5dde\u7701": "Guizhou",
+                        "\u8fbd\u5b81\u7701": "Liaoning",
+                        "\u91cd\u5e86\u5e02": "Chongqing",
+                        "\u9655\u897f\u7701": "Shaanxi",
+                        "\u9752\u6d77\u7701": "Qinghai",
+                        "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                        "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                        "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                    },
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "2018",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 0.7280688064628154,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "Overall food security index by region",
+                    "label": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "Beijing",
+                            "value": 0.3376707610292398
+                        },
+                        {
+                            "name": "Tianjin",
+                            "value": 0.36932759309877805
+                        },
+                        {
+                            "name": "Hebei",
+                            "value": 0.4924063616136847
+                        },
+                        {
+                            "name": "Shanxi",
+                            "value": 0.4670416918460824
+                        },
+                        {
+                            "name": "Inner Mongolia",
+                            "value": 0.6747154798401349
+                        },
+                        {
+                            "name": "Liaoning",
+                            "value": 0.5053692235181175
+                        },
+                        {
+                            "name": "Jilin",
+                            "value": 0.6125475339017921
+                        },
+                        {
+                            "name": "Heilongjiang",
+                            "value": 0.6286807050151777
+                        },
+                        {
+                            "name": "Shanghai",
+                            "value": 0.32783560247714816
+                        },
+                        {
+                            "name": "Jiangsu",
+                            "value": 0.5259718492493557
+                        },
+                        {
+                            "name": "Zhejiang",
+                            "value": 0.5973580782469151
+                        },
+                        {
+                            "name": "Anhui",
+                            "value": 0.5399836312555383
+                        },
+                        {
+                            "name": "Fujian",
+                            "value": 0.47204826159630964
+                        },
+                        {
+                            "name": "Jiangxi",
+                            "value": 0.4741419832061907
+                        },
+                        {
+                            "name": "Shandong",
+                            "value": 0.6007841274862362
+                        },
+                        {
+                            "name": "Henan",
+                            "value": 0.5219237685634203
+                        },
+                        {
+                            "name": "Hubei",
+                            "value": 0.5448094420579751
+                        },
+                        {
+                            "name": "Hunan",
+                            "value": 0.4673916374244126
+                        },
+                        {
+                            "name": "Guangdong",
+                            "value": 0.4832560401518603
+                        },
+                        {
+                            "name": "Guangxi",
+                            "value": 0.4115753395567575
+                        },
+                        {
+                            "name": "Hainan",
+                            "value": 0.3739769740791641
+                        },
+                        {
+                            "name": "Chongqing",
+                            "value": 0.3809080463631366
+                        },
+                        {
+                            "name": "Sichuan",
+                            "value": 0.41897067318176484
+                        },
+                        {
+                            "name": "Guizhou",
+                            "value": 0.3477433887221353
+                        },
+                        {
+                            "name": "Yunnan",
+                            "value": 0.4755382848714771
+                        },
+                        {
+                            "name": "Xizang",
+                            "value": 0.4708394370228606
+                        },
+                        {
+                            "name": "Shaanxi",
+                            "value": 0.4136416936600727
+                        },
+                        {
+                            "name": "Gansu",
+                            "value": 0.354354496508695
+                        },
+                        {
+                            "name": "Qinghai",
+                            "value": 0.42404194620162305
+                        },
+                        {
+                            "name": "Ningxia",
+                            "value": 0.4344147789921611
+                        },
+                        {
+                            "name": "Xinjiang",
+                            "value": 0.577480466527748
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "nameMap": {
+                        "\u4e0a\u6d77\u5e02": "Shanghai",
+                        "\u4e91\u5357\u7701": "Yunnan",
+                        "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                        "\u5317\u4eac\u5e02": "Beijing",
+                        "\u53f0\u6e7e\u7701": "Taiwan",
+                        "\u5409\u6797\u7701": "Jilin",
+                        "\u56db\u5ddd\u7701": "Sichuan",
+                        "\u5929\u6d25\u5e02": "Tianjin",
+                        "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                        "\u5b89\u5fbd\u7701": "Anhui",
+                        "\u5c71\u4e1c\u7701": "Shandong",
+                        "\u5c71\u897f\u7701": "Shanxi",
+                        "\u5e7f\u4e1c\u7701": "Guangdong",
+                        "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                        "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                        "\u6c5f\u82cf\u7701": "Jiangsu",
+                        "\u6c5f\u897f\u7701": "Jiangxi",
+                        "\u6cb3\u5317\u7701": "Hebei",
+                        "\u6cb3\u5357\u7701": "Henan",
+                        "\u6d59\u6c5f\u7701": "Zhejiang",
+                        "\u6d77\u5357\u7701": "Hainan",
+                        "\u6e56\u5317\u7701": "Hubei",
+                        "\u6e56\u5357\u7701": "Hunan",
+                        "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                        "\u7518\u8083\u7701": "Gansu",
+                        "\u798f\u5efa\u7701": "Fujian",
+                        "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                        "\u8d35\u5dde\u7701": "Guizhou",
+                        "\u8fbd\u5b81\u7701": "Liaoning",
+                        "\u91cd\u5e86\u5e02": "Chongqing",
+                        "\u9655\u897f\u7701": "Shaanxi",
+                        "\u9752\u6d77\u7701": "Qinghai",
+                        "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                        "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                        "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                    },
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "2019",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 0.6747154798401349,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "Overall food security index by region",
+                    "label": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "Beijing",
+                            "value": 0.3037619824553667
+                        },
+                        {
+                            "name": "Tianjin",
+                            "value": 0.336985588186828
+                        },
+                        {
+                            "name": "Hebei",
+                            "value": 0.48202523118768703
+                        },
+                        {
+                            "name": "Shanxi",
+                            "value": 0.4778825052818999
+                        },
+                        {
+                            "name": "Inner Mongolia",
+                            "value": 0.7232013455220773
+                        },
+                        {
+                            "name": "Liaoning",
+                            "value": 0.5543914377844681
+                        },
+                        {
+                            "name": "Jilin",
+                            "value": 0.6680510586877066
+                        },
+                        {
+                            "name": "Heilongjiang",
+                            "value": 0.6745180289014967
+                        },
+                        {
+                            "name": "Shanghai",
+                            "value": 0.2729869513706827
+                        },
+                        {
+                            "name": "Jiangsu",
+                            "value": 0.4677719837423726
+                        },
+                        {
+                            "name": "Zhejiang",
+                            "value": 0.4926700717268586
+                        },
+                        {
+                            "name": "Anhui",
+                            "value": 0.5104963882097702
+                        },
+                        {
+                            "name": "Fujian",
+                            "value": 0.4080629258081617
+                        },
+                        {
+                            "name": "Jiangxi",
+                            "value": 0.4475633206495051
+                        },
+                        {
+                            "name": "Shandong",
+                            "value": 0.5595218425783957
+                        },
+                        {
+                            "name": "Henan",
+                            "value": 0.48987239910007613
+                        },
+                        {
+                            "name": "Hubei",
+                            "value": 0.5090060072277683
+                        },
+                        {
+                            "name": "Hunan",
+                            "value": 0.44132312036964066
+                        },
+                        {
+                            "name": "Guangdong",
+                            "value": 0.41921849990488214
+                        },
+                        {
+                            "name": "Guangxi",
+                            "value": 0.4023897039040846
+                        },
+                        {
+                            "name": "Hainan",
+                            "value": 0.3414705534646235
+                        },
+                        {
+                            "name": "Chongqing",
+                            "value": 0.35475756809182646
+                        },
+                        {
+                            "name": "Sichuan",
+                            "value": 0.38199863247725707
+                        },
+                        {
+                            "name": "Guizhou",
+                            "value": 0.31222083618531316
+                        },
+                        {
+                            "name": "Yunnan",
+                            "value": 0.4288122449798203
+                        },
+                        {
+                            "name": "Xizang",
+                            "value": 0.42005081777817405
+                        },
+                        {
+                            "name": "Shaanxi",
+                            "value": 0.4232159966689997
+                        },
+                        {
+                            "name": "Gansu",
+                            "value": 0.36066981988550917
+                        },
+                        {
+                            "name": "Qinghai",
+                            "value": 0.384898760589015
+                        },
+                        {
+                            "name": "Ningxia",
+                            "value": 0.5206250993243665
+                        },
+                        {
+                            "name": "Xinjiang",
+                            "value": 0.561859482526007
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "nameMap": {
+                        "\u4e0a\u6d77\u5e02": "Shanghai",
+                        "\u4e91\u5357\u7701": "Yunnan",
+                        "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                        "\u5317\u4eac\u5e02": "Beijing",
+                        "\u53f0\u6e7e\u7701": "Taiwan",
+                        "\u5409\u6797\u7701": "Jilin",
+                        "\u56db\u5ddd\u7701": "Sichuan",
+                        "\u5929\u6d25\u5e02": "Tianjin",
+                        "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                        "\u5b89\u5fbd\u7701": "Anhui",
+                        "\u5c71\u4e1c\u7701": "Shandong",
+                        "\u5c71\u897f\u7701": "Shanxi",
+                        "\u5e7f\u4e1c\u7701": "Guangdong",
+                        "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                        "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                        "\u6c5f\u82cf\u7701": "Jiangsu",
+                        "\u6c5f\u897f\u7701": "Jiangxi",
+                        "\u6cb3\u5317\u7701": "Hebei",
+                        "\u6cb3\u5357\u7701": "Henan",
+                        "\u6d59\u6c5f\u7701": "Zhejiang",
+                        "\u6d77\u5357\u7701": "Hainan",
+                        "\u6e56\u5317\u7701": "Hubei",
+                        "\u6e56\u5357\u7701": "Hunan",
+                        "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                        "\u7518\u8083\u7701": "Gansu",
+                        "\u798f\u5efa\u7701": "Fujian",
+                        "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                        "\u8d35\u5dde\u7701": "Guizhou",
+                        "\u8fbd\u5b81\u7701": "Liaoning",
+                        "\u91cd\u5e86\u5e02": "Chongqing",
+                        "\u9655\u897f\u7701": "Shaanxi",
+                        "\u9752\u6d77\u7701": "Qinghai",
+                        "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                        "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                        "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                    },
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "2020",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 0.7232013455220773,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        },
+        {
+            "series": [
+                {
+                    "type": "map",
+                    "name": "Overall food security index by region",
+                    "label": {
+                        "show": true,
+                        "margin": 8
+                    },
+                    "map": "china",
+                    "data": [
+                        {
+                            "name": "Beijing",
+                            "value": 0.37727021029861435
+                        },
+                        {
+                            "name": "Tianjin",
+                            "value": 0.3907983247866075
+                        },
+                        {
+                            "name": "Hebei",
+                            "value": 0.4881616584715309
+                        },
+                        {
+                            "name": "Shanxi",
+                            "value": 0.4706570263435622
+                        },
+                        {
+                            "name": "Inner Mongolia",
+                            "value": 0.6645763251951632
+                        },
+                        {
+                            "name": "Liaoning",
+                            "value": 0.46872088923608857
+                        },
+                        {
+                            "name": "Jilin",
+                            "value": 0.5765309649391982
+                        },
+                        {
+                            "name": "Heilongjiang",
+                            "value": 0.5876272444209129
+                        },
+                        {
+                            "name": "Shanghai",
+                            "value": 0.29852192251048787
+                        },
+                        {
+                            "name": "Jiangsu",
+                            "value": 0.4668091112530237
+                        },
+                        {
+                            "name": "Zhejiang",
+                            "value": 0.5025496353164431
+                        },
+                        {
+                            "name": "Anhui",
+                            "value": 0.4551142326485908
+                        },
+                        {
+                            "name": "Fujian",
+                            "value": 0.4015945732559062
+                        },
+                        {
+                            "name": "Jiangxi",
+                            "value": 0.3881855080846799
+                        },
+                        {
+                            "name": "Shandong",
+                            "value": 0.5291451300880701
+                        },
+                        {
+                            "name": "Henan",
+                            "value": 0.4973080628079457
+                        },
+                        {
+                            "name": "Hubei",
+                            "value": 0.4422289982223928
+                        },
+                        {
+                            "name": "Hunan",
+                            "value": 0.38335610166445067
+                        },
+                        {
+                            "name": "Guangdong",
+                            "value": 0.4328232572292333
+                        },
+                        {
+                            "name": "Guangxi",
+                            "value": 0.37793253273574473
+                        },
+                        {
+                            "name": "Hainan",
+                            "value": 0.3234557350344677
+                        },
+                        {
+                            "name": "Chongqing",
+                            "value": 0.37222641806340756
+                        },
+                        {
+                            "name": "Sichuan",
+                            "value": 0.3668801554838823
+                        },
+                        {
+                            "name": "Guizhou",
+                            "value": 0.29893882657713566
+                        },
+                        {
+                            "name": "Yunnan",
+                            "value": 0.3964094493012912
+                        },
+                        {
+                            "name": "Xizang",
+                            "value": 0.4262652636343005
+                        },
+                        {
+                            "name": "Shaanxi",
+                            "value": 0.4177373777947543
+                        },
+                        {
+                            "name": "Gansu",
+                            "value": 0.3880770443383753
+                        },
+                        {
+                            "name": "Qinghai",
+                            "value": 0.40589746555169115
+                        },
+                        {
+                            "name": "Ningxia",
+                            "value": 0.5350586381965902
+                        },
+                        {
+                            "name": "Xinjiang",
+                            "value": 0.527466054318831
+                        }
+                    ],
+                    "roam": true,
+                    "aspectScale": 0.75,
+                    "nameProperty": "name",
+                    "selectedMode": false,
+                    "zoom": 1,
+                    "nameMap": {
+                        "\u4e0a\u6d77\u5e02": "Shanghai",
+                        "\u4e91\u5357\u7701": "Yunnan",
+                        "\u5185\u8499\u53e4\u81ea\u6cbb\u533a": "Inner Mongolia",
+                        "\u5317\u4eac\u5e02": "Beijing",
+                        "\u53f0\u6e7e\u7701": "Taiwan",
+                        "\u5409\u6797\u7701": "Jilin",
+                        "\u56db\u5ddd\u7701": "Sichuan",
+                        "\u5929\u6d25\u5e02": "Tianjin",
+                        "\u5b81\u590f\u56de\u65cf\u81ea\u6cbb\u533a": "Ningxia",
+                        "\u5b89\u5fbd\u7701": "Anhui",
+                        "\u5c71\u4e1c\u7701": "Shandong",
+                        "\u5c71\u897f\u7701": "Shanxi",
+                        "\u5e7f\u4e1c\u7701": "Guangdong",
+                        "\u5e7f\u897f\u58ee\u65cf\u81ea\u6cbb\u533a": "Guangxi",
+                        "\u65b0\u7586\u7ef4\u543e\u5c14\u81ea\u6cbb\u533a": "Xinjiang",
+                        "\u6c5f\u82cf\u7701": "Jiangsu",
+                        "\u6c5f\u897f\u7701": "Jiangxi",
+                        "\u6cb3\u5317\u7701": "Hebei",
+                        "\u6cb3\u5357\u7701": "Henan",
+                        "\u6d59\u6c5f\u7701": "Zhejiang",
+                        "\u6d77\u5357\u7701": "Hainan",
+                        "\u6e56\u5317\u7701": "Hubei",
+                        "\u6e56\u5357\u7701": "Hunan",
+                        "\u6fb3\u95e8\u7279\u522b\u884c\u653f\u533a": "Macao",
+                        "\u7518\u8083\u7701": "Gansu",
+                        "\u798f\u5efa\u7701": "Fujian",
+                        "\u897f\u85cf\u81ea\u6cbb\u533a": "Xizang",
+                        "\u8d35\u5dde\u7701": "Guizhou",
+                        "\u8fbd\u5b81\u7701": "Liaoning",
+                        "\u91cd\u5e86\u5e02": "Chongqing",
+                        "\u9655\u897f\u7701": "Shaanxi",
+                        "\u9752\u6d77\u7701": "Qinghai",
+                        "\u9999\u6e2f\u7279\u522b\u884c\u653f\u533a": "Hong Kong",
+                        "\u9ed1\u9f99\u6c5f\u7701": "Heilongjiang",
+                        "\u5357\u6d77\u8bf8\u5c9b": "South China Sea Islands"
+                    },
+                    "zlevel": 0,
+                    "z": 2,
+                    "seriesLayoutBy": "column",
+                    "datasetIndex": 0,
+                    "mapValueCalculation": "sum",
+                    "showLegendSymbol": true,
+                    "emphasis": {}
+                }
+            ],
+            "title": [
+                {
+                    "show": true,
+                    "text": "2021",
+                    "target": "blank",
+                    "subtarget": "blank",
+                    "padding": 5,
+                    "itemGap": 10,
+                    "textAlign": "auto",
+                    "textVerticalAlign": "auto",
+                    "triggerEvent": false
+                }
+            ],
+            "tooltip": {
+                "show": true,
+                "trigger": "item",
+                "triggerOn": "mousemove|click",
+                "axisPointer": {
+                    "type": "line"
+                },
+                "showContent": true,
+                "alwaysShowContent": false,
+                "showDelay": 0,
+                "hideDelay": 100,
+                "enterable": false,
+                "confine": false,
+                "appendToBody": false,
+                "transitionDuration": 0.4,
+                "textStyle": {
+                    "fontSize": 14
+                },
+                "borderWidth": 0,
+                "padding": 5,
+                "order": "seriesAsc"
+            },
+            "visualMap": {
+                "show": true,
+                "type": "continuous",
+                "min": 0,
+                "max": 0.6645763251951632,
+                "inRange": {
+                    "color": [
+                        "#50a3ba",
+                        "#eac763",
+                        "#d94e5d"
+                    ]
+                },
+                "calculable": true,
+                "inverse": false,
+                "splitNumber": 5,
+                "hoverLink": true,
+                "orient": "vertical",
+                "padding": 5,
+                "showLabel": true,
+                "itemWidth": 20,
+                "itemHeight": 140,
+                "borderWidth": 0
+            },
+            "color": [
+                "#5470c6",
+                "#91cc75",
+                "#fac858",
+                "#ee6666",
+                "#73c0de",
+                "#3ba272",
+                "#fc8452",
+                "#9a60b4",
+                "#ea7ccc"
+            ]
+        }
+    ]
+};
+        chart_6d25c068689441c2a088b16ded61986d.setOption(option_6d25c068689441c2a088b16ded61986d);
+    </script>
+</body>
+</html>
